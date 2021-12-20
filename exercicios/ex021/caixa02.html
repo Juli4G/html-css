@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Grouping Tags </title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(130, 130, 130);
+        }
+
+        header {
+            text-align: center;
+            background-color: white;
+            border-radius: 10px;
+            margin: 10px;
+            padding-bottom: 5px;
+            padding-left: 5px;      
+        }
+
+        main {
+            background-color: white;
+            border-radius: 0px 10px;
+            margin: 10px;
+            padding: 5px;
+        }
+
+        nav {
+            background-color: rgb(0, 0, 0);
+            border-radius: 5px;
+            padding-top: 5px;
+            padding-left: 4px;
+            margin-right: 5px;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            background-color: black;
+            margin-right: 20px;
+        }
+
+        nav > a:hover {
+            text-decoration: overline;
+        }
+
+        h2 {
+            color: preto;
+        }
+
+        footer {
+            text-align: center;
+        }
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1> Meu site </h1>
+        <nav>
+                <a href="#"> Link </a>
+                <a href="#"> Link </a>
+                <a href="#"> Link </a>
+                <a href="#"> Link </a>
+                <a href="#"> Link </a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos"></section>
+        <section id="noticias"></section>
+            <article>
+                <h2> Introdução </h2>
+                <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus aut animi fugit deserunt nemo excepturi perferendis atque provident vero quam delectus incidunt beatae ipsam, repudiandae aliquid recusandae consequuntur perspiciatis rerum! </p>
+            </article>
+            <article>
+                <h2> Desenvolvimento </h2>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore voluptatum distinctio sunt consequuntur numquam porro dolorum corporis, voluptatem itaque deserunt fugit ut, quibusdam perspiciatis commodi repudiandae enim. Facere, omnis atque. </p>
+            </article>
+            <article>
+                <h2> Conclusão </h2>
+                <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos iure laudantium quis nihil voluptate adipisci beatae vero, incidunt impedit expedita voluptates, nobis delectus deserunt. Sequi libero ut eos officiis unde! </p>
+                <aside>
+                    <p> Artigo escrito por <b> Julia Gabrielly. </b> </p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p> <b> Desenvolvido por Julia Gabrielly &copy; </b> </p>
+        <div id="bola"></div>
+    </footer>
+</body>
+</html>

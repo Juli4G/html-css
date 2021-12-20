@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap'); 
+
+@font-face {
+    font-family: 'IDroid';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+    body {
+        background-color: #84E1AD;
+    }
+
+    header {
+        background-image: linear-gradient(to bottom, #3CD882, #2DA362, #1D683E); 
+    }
+
+    h1.tituloheader {
+        font-family: 'Bebas Neue', cursive;
+        color: rgba(255, 255, 255, 0.986);
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.699);
+        text-align: center;
+        padding-top: 25px;
+    }
+
+    p.pheader {
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgba(255, 255, 255, 0.986);
+        text-align: center;
+    }
+
+    nav.menu {
+        text-decoration: none;
+        color: white;
+        background-color: #1b5d3a;
+    }
+
+    div > a {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        text-align: left;
+        text-decoration: none;
+        margin: 10px 10px;
+            }
+
+    main {
+        background-color: white;
+        border-radius: 5px;
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.192);
+        margin: 0px 75px;
+    }
+
+    h1.titulosmain {
+        font-size: 16px;
+        font-family: 'IDroid';
+        color: #1B5D3A;
+        margin: 10px;
+    }
+
+    h2.titulosmain {
+        font-size: 16px;
+        font-family: 'IDroid';
+        background-image: linear-gradient(to right, #84E1AD, #e1faec, #FFFFFF);
+        color: #1B5D3A;
+        margin: 10px;
+    }
+
+    p.pmain {
+        font-size: 16px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: black;
+        padding: 5px 12px;
+        text-indent: 20px;
+        text-align: justify;
+    }
+
+    iframe {
+        margin: 0px 30px;
+    }
+
+    div.extra {
+        border-radius: 0px 0px 10px 10px;
+        background-color: #C5EBD6;
+        margin: 10px;
+    }
+
+    h3.extrah3 {
+        color: white;
+        border-radius: 10px 10px 0px 0px;
+        background-color: #2FA866;
+        padding: 0px 10px;
+    }
+
+    ul {
+        display: inline-block;
+    }
+
+    ul.versoes2 {
+        padding: 0px 75px;
+    }
+
+    footer {
+        background-color: #185936;
+    }
+
+    p {
+        color: white;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-align: center;
+    }
