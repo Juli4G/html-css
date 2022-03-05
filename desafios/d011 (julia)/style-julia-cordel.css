@@ -1,11 +1,14 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap');
-
 @font-face {
     font-family: 'Sriracha';
-    src: url(/fontes/Sriracha-Regular.ttf) format('opentype');
+    src: url(./fontes/Sriracha-Regular.ttf) format('truetype');
     font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Passion One';
+    src: url(./fontes/PassionOne-Bold.ttf) format('truetype');
 }
 
 :root {
@@ -46,20 +49,37 @@ header > h3 {
 }
 
 article > p {
-    font: 3em var(--fonte-sriracha);
+    font-family: var(--fonte-sriracha);
+    font-size: 3em;
     padding-bottom: 85px;
     margin: 75px 20px;
     line-height: 95px;
 }
 
-div > article {
-    background-image: url(imagens/imagens/background001.jpg);
+div.div2estrofe {
+    background: black url('imagens/imagens/background001.jpg') no-repeat center center/cover fixed;
+    box-shadow: 0px 0px 10px black insent;
+    padding: 1px 5px;
+    margin: -10px;
 }
 
 p.segundaestrofe {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.507);
     color: white;
     width: 562px;
+    padding: 5px; 
+}
+
+div.div5estrofe {
+    background: black url('imagens/imagens/background002.jpg') no-repeat center center/cover fixed;
+    padding: 1px 5px;
+    margin: -10px;
+}
+
+p.quintaestrofe {
+    background-color: rgba(0, 0, 0, 0.507);
+    color: white;
+    width: 570px;
     padding: 5px;
 }
 
