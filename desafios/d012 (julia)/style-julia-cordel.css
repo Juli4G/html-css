@@ -48,6 +48,10 @@ header > h3 {
     padding-bottom: 50px;
 }
 
+main {
+    margin: auto;
+}
+
 article > p {
     font-family: var(--fonte-sriracha);
     font-size: 3em;
